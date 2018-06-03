@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <script>
+  password = prompt("This page is encrypted. Please enter the password"); <!--나머지 함수값이 쭉 실행 안되는 이유는?-->
+  if(password == "sundayhosu") {
+    alert("Welcome my team!");
+  } else {
+    alert("누구냐 너");
+      }
+  </script>
+    <h1> Suggest your though. Brainstorming! Be creative =)</h1><br>
+  <body>
+    <form action="index.html" method="post" onsubmit="return formCheck();">
+      제목 : <input type="text" name="title" /><br/>
+      작성자 : <input type="text" name="writer" /><br/>
+      날짜 : <input type="text" name="regdate" /><br/>
+      <input type="submit" /> <!-- / 는 대체 뭐임?-->
+    </form>
+    <a href="write.html">글쓰기</a>
+</body>
+</html>
